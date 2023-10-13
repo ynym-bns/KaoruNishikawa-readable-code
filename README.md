@@ -1,9 +1,16 @@
 # KaoruNishikawa-readable-code
 
-## 名前
+## 使用方法
 
-西川 薫 (にしかわ かおる)
+1. リポジトリをクローンする
 
-## 趣味
+   ```shell
+   git clone https://github.com/KaoruNishikawa/KaoruNishikawa-readable-code.git
+   cd KaoruNishikawa-readable-code
+   ```
 
-写真撮影、プログラミング
+2. プログラムを実行する
+
+   ```shell
+   ./dictionary.py
+   ```
