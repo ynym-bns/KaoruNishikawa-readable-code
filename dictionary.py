@@ -50,7 +50,7 @@ data_file_path = Path(__file__).parent / "dictionary-data.txt"
 
 
 def print_dictionary(path: Path, index: Optional[int] = None) -> None:
-    _data_file_contents = path.read_text()
+    _data_file_contents = path.read_text(encoding="utf-8")
     _data_file_contents = _data_file_contents.strip()  # 最終行が空行だった場合、その行を削除する
     _data_file_contents = _data_file_contents.splitlines()
     dict_data = [DictEntry(line) for line in _data_file_contents]
